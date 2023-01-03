@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+
+/**/
+div.ta_cont		{background:#fff; border:1px solid #dcdcdc; min-height:80px; box-shadow:2px 1px 1px #dfdfdf; -webkit-border-radius:5px;  border-radius:5px;  -moz-border-radius:5px;}
+div.ta_cont01	{background:#fff; border:1px solid #dcdcdc; min-height:300px; border-top:none; box-shadow:2px 1px 1px #dfdfdf; -webkit-border-radius:0 0 5px 5px;  border-radius:0 0 5px 5px;  -moz-border-radius:0 0 5px 5px;}
+
+
+/*table*/
+
+/* popup 테이블 */
+table.table01						{width:100%; table-layout:fixed;}
+table.table01 thead	th				{text-align:left; vertical-align:middle; padding:15px 15px; border-bottom:1px solid #f0f0f0; color:#333; font:14px/18px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.table01 thead	th.c			{text-align:center;}
+table.table01 tbody	th				{text-align:left; vertical-align:middle; padding:10px 10px; border-bottom:1px solid #dedede; color:#444; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.table01 tbody	th a			{display:inline-block; text-align:left; vertical-align:middle; word-wrap: break-word; overflow:hidden; color:#444; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; width:95%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+table.table01 tbody	th a.c			{text-align:center;}
+table.table01 tbody	td				{text-align:center; vertical-align:middle; word-break:  break-all; padding:10px 15px; border-bottom:1px solid #dedede; color:#888; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.table01 tbody	td.tit			{color:#444; font:bold 14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; }
+table.table01 tbody	td.tit a		{display:inline-block; color:#444; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; width:100%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+table.table01 tbody	td.tit a:hover	{color:#0064af; font-weight:bold;}
+table.table01 tbody	.c				{text-align:center;}
+table.table01 tbody	tr:last-child	{border-bottom:none;}
+
+table.table01 tbody	tr:hover		{ background:#f5f5f5 url('./_img/comn/table_hover.jpg') repeat-y 0 0;  }
+table.table01 tbody	tr:hover th a	{cursor:pointer; color:#111; text-decoration:underline;}
+
+
+
+table.table02						{width:100%; }
+table.table02 tbody th				{padding:13px 10px; border-bottom:1px solid #dfdfdf; text-align:center; vertical-align:middle; color:#333; font:15px/20px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.table02 tbody td				{padding:13px 10px; border-bottom:1px solid #dfdfdf; text-align:left; vertical-align:middle; color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+table.table02 .g						{background:#f5f5f5; }
+table.table02 span.t_left				{display:inline-block; margin:10px 10px 0 0; color:#444; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.table02 span.t_left b				{font:14px/18px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#111}
+
+table.table02 input[type="radio"]		{margin:5px 5px 0 0;}
+table.table02 input[type="checkbox"]		{margin:5px 5px 0 0;}
+table.table02 span.ra_t					{display:inline-block; margin:0 15px 0 0;  color:#666; font:normal 14px/22px  "NanumGothic","Malgun Gothic","Dotum","Arial","verdana";}
+table.table02 span.ra_t:last-child		{margin:0 0 0 0}
+
+
+/* 테이블 안 테이블 */
+
+table.table03				{width:100%; margin:10px 0 0 0; background:#fff; border-top:2px solid #999; }
+table.table03 thead th		{text-align:center; padding:13px 15px; border-bottom:1px solid #eee; color:#333; font:14px/18px  "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+table.table03 tbody th		{text-align:center; color:#333; font:14px/18px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.table03 tbody td		{text-align:center; word-wrap: break-word; word-break:  break-all; overflow:hidden; padding:6px 15px; color:#666; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.table03 tbody .c	{text-align:center; }
+
+
+
+/*tab*/
+ul.tab01			{width:100%; overflow:hidden; background:url('./_img/cont/gray_line.gif') repeat-x 0 100%}
+ul.tab01 li			{float:left; margin:0 2px 0 0; }
+ul.tab01 li a		{display:inline-block; background:#ddd; border:none; border-bottom:2px solid #999; padding:14px 35px 10px; color:#666; font:16px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; -webkit-border-radius:3px 3px 0 0;  border-radius:3px 3px 0 0;  -moz-border-radius:3px 3px 0 0;}
+ul.tab01 li a.on	{background:#eee;  color:#333;  border:2px solid #999;  border-bottom:2px solid #eee; padding:12px 35px 10px; font:16px/20px  "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+
+
+/*윈도우 팝업*/
+div.popup_wrap		{ background:#eeeeee; height:100%}
+
+div.popup_tit					{background:#2f323a; overflow:hidden; color:#666; font:20px/24px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.popup_tit h2.pop_tit		{float:left; padding:18px 0 12px 20px; margin:0; color:#fff; font:20px/24px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.popup_tit p.cbtn			{float:right; display:table; width:60px; height:60px; background:#225da2}
+div.popup_tit p.cbtn a			{display:table-cell; text-align:center; vertical-align:middle}
+div.popup_tit p.cbtn a img		{display:inline-block; margin-top:-5px}
+div.popup_cont					{padding:30px;}
+
+div.popup_cont .id_tit				{margin-top:10px; color:#333; font:34px/40px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.popup_cont .id_tit span		{color:#c90920}
+div.popup_cont .bg_id				{margin-top:30px; background:#f9f9f9; padding:15px 0}
+div.popup_cont .id_text			{font:20px/30px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.popup_cont .id_text02		{font:14px/16px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+
+/*레이어팝업*/
+div.layer				{display:none; position:fixed;  top:0; left:0; width:100%; height:100%; z-index:100000;}
+div.layer .bg			{position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.5; filter:alpha(opacity=50);}
+div.layer .pop-layer	{position: absolute; top: 50%; left: 50%; height:auto; background-color:#fff; z-index: 10;}
+
+.pop_top			{overflow:hidden; width:100%; padding:5px 10px; background:#225da2; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.pop_top h2			{float:left; padding:18px 0 12px 20px; margin:0; color:#fff; font:20px/24px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+.pop_top p.close	{float:right; margin:18px 20px 12px 0;}
+
+.pop_cont				{padding:25px 25px; max-height:500px; overflow-y:auto; word-break:keep-all;}
+.pop_cont .pop_tit		{font:300 15px/20px "Noto Sans KR",Malgun Gothic, Dotum, Arial, verdana, Helvetica; color:#333}
+.pop_cont input			{width:54px; height:24px; padding: 0 5px 0 5px; border:1px solid #d6d6d6}
+.pop_cont textarea		{overflow-y:auto; border:1px solid #d6d6d6; color:#666; font:14px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+a.cbtn		{padding:15px 0;  color:#777; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+
+/*뷰페이지*/
+div.view_top						{width:100%;  border-bottom:1px solid #ddd; background:#f5f5f5; -webkit-border-radius:3px 3px 0 0;  border-radius:3px 3px 0 0;  -moz-border-radius:3px 3px 0 0;}
+div.view_top .view_tit				{padding:20px 25px 0 25px; vertical-align:middle; color:#333; font:22px/26px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;text-align:left; word-break:keep-all;}
+div.view_top ul.view_hd					{margin:10px 25px 15px; overflow:hidden}
+div.view_top ul.view_hd li				{float:left; margin-right:20px; vertical-align:middle; color:#333; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.view_top ul.view_hd li span			{display:inline-block; padding:0 5px 0 0; color:#333; font:15px/20px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.view_top ul.view_hd li a			{display:inline-block; padding:0 15px 0 20px; color:#888; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; }
+div.view_top ul.view_hd li a:hover		{text-decoration:underline; color:#c90920}
+
+p.file_tit				{color:#333; font:15px/20px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+.v_file					{width:100%; border-bottom:1px solid #bbb; padding:7px 20px 13px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;2017-09-04}
+.v_file li				{margin-top:5px}
+.v_file a				{vertical-align:middle}
+.v_file a.file			{display:inline-block; max-width:80%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding:0 0 0 20px; color:#666; font:13px/14px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; background:url('../_img/cont/v_file.png')no-repeat 0 0px; background-size:15px auto; }
+.v_file a.file:hover	{text-decoration:underline; color:#2573cf}
+.v_file a.down			{display:inline-block; border:1px solid #ccc; background:#f9f9f9; padding:3px 5px; border-radius:3px; color:#666; font:13px/14px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; -webkit-transition: all 0.5s; transition: all 0.5s}
+.v_file a.down:hover	{background:#2573cf; color:#fff; border:1px solid #2573cf}
+
+div.bbs_cont			{padding:30px 30px; box-sizing:border-box; min-height:200px; font-family: "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; word-wrap: break-all;}
+div.bbs_cont b			{font-weight:500}
+div.bbs_cont img		{max-width:100%; box-sizing:border-box;}
+
+
+/*답변*/
+div.inq_ans_tit			{font:16px/24px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#333}
+div.inq_ans				{padding:20px 0; word-break:break-all; word-wrap: break-all; font-family: "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.inq_ans b			{ font-family: "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.inq_qus				{word-break:break-all; word-wrap: break-all; font-family: "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+
+/*이전글 다음글*/
+div.prev_next					{width:100%;border-top:1px solid #ddd; border-bottom:1px solid #ccc;}
+div.prev_next p				{color:#666; font:14px/17px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.prev_next p.prev		{padding:18px 16px 18px 16px; vertical-align:middle; border-bottom:1px solid #ddd; background:url('./_img/cont/view_prev.png')no-repeat 78px 50%;}
+div.prev_next p.next		{padding:18px 16px 18px 16px; vertical-align:middle; background:url('./_img/cont/view_next.png')no-repeat 78px 50%;}
+div.prev_next span			{display:inline-block; margin:0 0 0 30px; color:#888; font:14px/16px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.prev_next a				{color:#666; font:14px/16px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+div.prev_next a:hover		{color:#2573cf ; text-decoration:underline}
+
+
+/* 쓰기 */
+table.bbs_write								{width:100%; -webkit-border-radius:3px 3px 0 0;  border-radius:3px 3px 0 0;  -moz-border-radius:3px 3px 0 0;}
+table.bbs_write th							{padding:10px 15px; min-height:30px; text-align:left; border-bottom:1px solid #e5e5e5; background:#f8f8f8; color:#333; font:15px/20px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; vertical-align:middle;}
+table.bbs_write td							{padding:10px 15px; border-bottom:1px solid #e5e5e5; position:relative; vertical-align:middle; color:#777; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write td > p						{font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#777;}
+table.bbs_write td > span					{font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#777;}
+table.bbs_write td > a						{color:#0064af; font-weight:bold;}
+
+table.bbs_write td input.file			{height:36px; min-width:120px; padding-left:10px; box-sizing:border-box;border:1px solid #ccc; color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write td textarea				 {margin-bottom:5px; overflow-y:auto; border:1px solid #ccc; box-sizing:border-box; color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write td p.text				{color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write td p.text span			{color:#c90920}
+table.bbs_write td.tit					{color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write td span.text			{color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write td .text_b				{color:#666; font:15px/20px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write td .red					{font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#c90920}
+table.bbs_write td .blue				{font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#6f849c}
+table.bbs_write .state				{padding:3px 20px}
+table.bbs_write .state_end			{display:inline-block; width:70px; text-align:center; padding:5px 0; border:1px solid #c90920; background:#fff; font:400 13px/20px "Noto Sans KR",Malgun Gothic, Dotum, Arial, verdana, Helvetica; color:#c90920}
+table.bbs_write .state_ing			{display:inline-block; width:70px; text-align:center; padding:5px 0; border:1px solid #ddd; background:#fff; font:400 13px/20px "Noto Sans KR",Malgun Gothic, Dotum, Arial, verdana, Helvetica; color:#999}
+table.bbs_write a.file				{font:300 15px/25px "Noto Sans KR",Malgun Gothic, Dotum, Arial, verdana, Helvetica; color:#666;}
+table.bbs_write a.file img			{margin:-2px 7px 0 0}
+table.bbs_write a.file:hover		{text-decoration:underline}
+/*table.bbs_write p.img img			{border:1px solid #ddd;}*/
+
+table.bbs_write span.t_left					{display:inline-block; margin:10px 10px 0 0; color:#444; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+table.bbs_write span.t_left b				{font:14px/18px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#111}
+
+table.bbs_write input[type="radio"]			{margin:5px 5px 0 0;}
+table.bbs_write input[type="checkbox"]		{margin:5px 5px 0 0;}
+table.bbs_write span.ra_t					{display:inline-block; margin:0 15px 0 0;  color:#666; font:normal 14px/22px  "NanumGothic","Malgun Gothic","Dotum","Arial","verdana";}
+table.bbs_write span.ra_t:last-child		{margin:0 0 0 0}
+table.bbs_write input.file01				{height:30px;}
+
+table.bbs_write .v_middle	{display:inline-block; margin:9px 0 0 0;}
+table.bbs_write .img_size	{margin-top:5px; font:14px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; color:#e6614f}
+
+
+p.sel_box						{position: relative; width:250px; height:38px; vertical-align:top; border:1px solid #ccc; font:300 15px/40px "Noto Sans KR",Malgun Gothic, Dotum, Arial, verdana, Helvetica;color:#666; background:url('../_img/bbs/sel_bg.jpg')no-repeat 100% 100%}
+p.sel_box label				 {position: absolute; top: -1px; left: 10px; color:#666; font:15px/40px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; }
+p.sel_box select.category	 {width: 100%; height: 38px; min-height: 38px; padding: 0 2px; opacity: 0; filter: alpha(opacity=0); /* IE 8 */ color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+
+.filebox input[type="file"]		{position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); }
+.filebox label						{display: inline-block; padding:7px 10px 7px 10px; width:50px; text-align:center; vertical-align:middle; color:#fff; font:15px/20px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; background: #888; cursor: pointer; border: 1px solid #8d8d8d; -moz-transition:all 250ms; -o-transition:all 250ms; -webkit-transition:all 250ms; transition:all 250ms; -webkit-border-radius:3px;  border-radius:3px;  -moz-border-radius:3px;}
+.filebox label:hover				{background:#666; color:#fff; border: 1px solid #6d6d6d;}
+.filebox label.co_label			{display: inline-block; padding:7px 10px 7px 10px; width:50px; text-align:center; vertical-align:middle; color:#555; font:15px/20px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; background: #f6f6f6; cursor: pointer; border: 1px solid #ddd; -moz-transition:all 250ms; -o-transition:all 250ms; -webkit-transition:all 250ms; transition:all 250ms;}
+.filebox label.co_label:hover	{background:#eee;}
+.filebox .upload-name			{display: inline-block; padding:0 10px; width:300px; color:#666; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; vertical-align: middle; background-color: #fff; border: 1px solid #ddd; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+
+.filebox .file_name			{display: inline-block; margin:10px 0 0 7px;  color:#888; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; }
+.filebox .file_name a		{display: inline-block; padding:0 0 0 18px; margin:2px 0 0 5px;  color:red; font:15px/20px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; background:url("../_img/cont/file_del.png") no-repeat 0 3px; }
+.filebox .file_name:hover	{text-decoration:underline}
+
+
+
+
+
+.select01			{height:38px !important; border:1px solid #ccc !important; min-width:80px; -webkit-appearance: none; appearance: none;﻿}

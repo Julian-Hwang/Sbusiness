@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+
+/*�α���*/
+
+#login_warp {width:100%; height:100%; position:relative; min-height:900px; min-width:900px; background-image:url("../_img/mem/login_bg.jpg"); background-repeat : no-repeat ;background-attachment : fixed;background-size:cover; background-position:center center; }
+
+p.lg_top	{position:absolute; top:30px; left:30px; padding:10px 20px; background:rgba(255,255,255, 0.2); text-align:center; color:#fff; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; -webkit-border-radius:19px;  border-radius:19px;  -moz-border-radius:19px;}
+
+div.login	{width:340px; padding:200px 0 0 0; margin:0 auto 0;}
+
+h1.login_logo	{ margin:0 auto; text-align:center; }
+
+.lg_wrap	{padding:60px 0 0 0; }
+.lg_wrap input	{width:100%; padding:12px; height:50px; background:rgba(255,255,255, 0.1); border:1px solid #d0caca; outline:none; -webkit-border-radius:3px;  border-radius:3px;  -moz-border-radius:3px; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;  color:#fff;}
+.lg_wrap input::-webkit-input-placeholder {color:#fff; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; } /*ũ��*/
+.lg_wrap input::-moz-placeholder {color:#fff; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif; } /*���̾�����*/
+.lg_wrap input::-ms-input-placeholder {color:#fff; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;} /*�ͽ�*/
+
+a.login_btn		{display:inline-block; width:100%; height:30px; padding:17px 0 13px; text-align:center; background:#fff; color:#516c70; font:20px/25px "NanumGothic_b","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;  -webkit-border-radius:32px;  border-radius:32px;  -moz-border-radius:32px; -moz-transition: all 500ms; -o-transition: all 500ms; -webkit-transition: all 500ms; transition: all 500ms;}
+a.login_btn:hover	{color:#4f666a; background:rgba(255,255,255, 0.4);}
+
+
+p.lo_save_id									{padding:30px 0 0 0; position:relative; text-align:center; width:340px; margin:0 auto}
+p.lo_save_id input[type="checkbox"]							{position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0}
+p.lo_save_id input[type="checkbox"] + label					{display: inline-block; position: relative; cursor: pointer; -webkit-user-select: none; -moz-user-select: none;  -ms-user-select: none; color:#fff; font:14px/18px "NanumGothic","malgun gothic","Dotum"," Gulim","Arial","verdana","Helvetica",sans-serif;}
+p.lo_save_id input[type="checkbox"] + label:before			{content: ' '; display: inline-block; width: 17px; height: 17px; line-height: 17px; margin: -3px 5px 0 0; text-align: center; vertical-align: middle; background:url('./_img/bbs/check_off.png')#fff no-repeat 50% 50%; border: 1px solid #fff;}
+p.lo_save_id input[type="checkbox"]:checked + label:before	{ content: ' '; background:url('../_img/mem/check_on.png')#333 no-repeat 50% 50%; border:1px solid #333;}
+
+
+
+
+
+
+
